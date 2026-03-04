@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - model_cache:/root/.cache/huggingface
+    environment:
+      # Connect to MongoDB Compass running on Windows host (default port 27017)
+      - DATABASE_URL=mongodb://host.docker.internal:27017
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface
+
+volumes:
+  model_cache:
+    driver: local
