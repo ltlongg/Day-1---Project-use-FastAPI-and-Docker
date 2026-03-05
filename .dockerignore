@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Môi trường ảo (Virtual environments)
+venv/
+env/
+.venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Môi trường & IDE
+.env
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Logs, test, build
+logs/
+*.log
