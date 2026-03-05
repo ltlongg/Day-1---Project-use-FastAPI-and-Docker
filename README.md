@@ -1,3 +1,4 @@
+Link Video: https://youtu.be/ga3uzlOPJlM
 # 📝 Text Classification API
 
 Sentiment Analysis API sử dụng **FastAPI** + **Hugging Face Transformers** + **MongoDB Compass** + **Docker**.
