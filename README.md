@@ -95,7 +95,7 @@ GET /history?skip=0&limit=20
 
 ## 📚 Swagger UI
 
-Mở browser tại: **http://localhost:8000/docs**
+Mở browser tại: **http://localhost:8888/docs**
 
 ## 🛠 Tech Stack
 

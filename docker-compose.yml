@@ -2,7 +2,7 @@ services:
   api:
     build: .
     ports:
-      - "8000:8000"
+      - "8888:8000"
     volumes:
       - model_cache:/root/.cache/huggingface
     environment:
